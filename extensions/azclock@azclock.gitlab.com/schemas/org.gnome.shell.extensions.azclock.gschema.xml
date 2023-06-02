@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema id="org.gnome.shell.extensions.azclock" path="/org/gnome/shell/extensions/azclock/">
+        <key type="a{ss}" name="changed-data">
+            <default>{}</default>
+            <summary>Store details about which widget-data entry changed.</summary>
+            <description>Store details about which widget-data entry changed.Ex:
+            {
+                'WidgetIndex': '0',
+                'ElementIndex': '1',
+                'ElementType': 'TextColor'
+            }
+            </description>
+        </key>
+        <key type="aaa{ss}" name="widget-data">
+            <default>[[
+                    {
+                        'Name': 'Digital Clock Widget',
+                        'Widget_Type': 'Widget_Box',
+
+                        'Lock_Widget': 'false',
+
+                        'Location_X': '50',
+                        'Location_Y': '50',
+
+                        'Box_BackgroundEnabled': 'false',
+                        'Box_BackgroundColor': 'rgba(0, 0, 0, .2)',
+                        'Box_BorderEnabled': 'false',
+                        'Box_BorderWidth': '0',
+                        'Box_BorderRadius': '20',
+                        'Box_BorderColor': 'black',
+                        'Box_Spacing': '8',
+                        'Box_Padding': '25',
+                        'Box_VerticalLayout': 'true'
+                    },
+                    {
+                        'Name': 'Time Label',
+                        'Element_Type': 'Digital_Clock',
+
+                        'Element_Margin_Top': '0',
+                        'Element_Margin_Left': '0',
+                        'Element_Margin_Bottom': '0',
+                        'Element_Margin_Right': '0',
+                        'Element_Padding_Top': '0',
+                        'Element_Padding_Left': '0',
+                        'Element_Padding_Bottom': '0',
+                        'Element_Padding_Right': '0',
+
+                        'TimeZoneOverrideEnabled': 'false',
+                        'TimeZoneOverride': 'UTC',
+
+                        'Text_ShadowEnabled': 'true',
+                        'Text_ShadowColor': 'black',
+                        'Text_ShadowX': '2',
+                        'Text_ShadowY': '2',
+                        'Text_ShadowSpread': '0',
+                        'Text_ShadowBlur': '4',
+
+                        'Text_Color': 'white',
+                        'Text_BackgroundEnabled': 'false',
+                        'Text_BackgroundColor': 'rgba(0, 0, 0, .2)',
+                        'Text_BorderEnabled': 'false',
+                        'Text_BorderWidth': '0',
+                        'Text_BorderRadius': '20',
+                        'Text_BorderColor': 'black',
+                        'Text_CustomFontEnabled': 'false',
+                        'Text_CustomFontFamily': 'Cantarell',
+                        'Text_Size': '64',
+                        'Text_DateFormat': '%H∶%M∶%S',
+
+                        'Text_AlignmentX': 'Center',
+                        'Text_AlignmentY': 'Center',
+                        'Text_LineAlignment': 'Center'
+                    },
+                    {
+                        'Name': 'Date Label',
+                        'Element_Type': 'Digital_Clock',
+
+                        'Element_Margin_Top': '0',
+                        'Element_Margin_Left': '0',
+                        'Element_Margin_Bottom': '0',
+                        'Element_Margin_Right': '0',
+                        'Element_Padding_Top': '0',
+                        'Element_Padding_Left': '0',
+                        'Element_Padding_Bottom': '0',
+                        'Element_Padding_Right': '0',
+
+                        'TimeZoneOverrideEnabled': 'false',
+                        'TimeZoneOverride': 'UTC',
+
+                        'Text_ShadowEnabled': 'true',
+                        'Text_ShadowColor': 'black',
+                        'Text_ShadowX': '2',
+                        'Text_ShadowY': '2',
+                        'Text_ShadowSpread': '0',
+                        'Text_ShadowBlur': '4',
+
+                        'Text_Color': 'white',
+                        'Text_BackgroundEnabled': 'false',
+                        'Text_BackgroundColor': 'rgba(0, 0, 0, .2)',
+                        'Text_BorderEnabled': 'false',
+                        'Text_BorderWidth': '0',
+                        'Text_BorderRadius': '20',
+                        'Text_BorderColor': 'black',
+                        'Text_CustomFontEnabled': 'false',
+                        'Text_CustomFontFamily': 'Cantarell',
+                        'Text_Size': '32',
+                        'Text_DateFormat': '%A %b %d',
+
+                        'Text_AlignmentX': 'Center',
+                        'Text_AlignmentY': 'Center',
+                        'Text_LineAlignment': 'Center'
+                    }
+                    ]]</default>
+            <summary>Stores clocks data</summary>
+            <description>Stores clocks data.</description>
+        </key>
+    </schema>
+</schemalist>

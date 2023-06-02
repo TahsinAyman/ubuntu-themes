@@ -1,0 +1,18 @@
+
+    .dpt-panel-custom-unmaximized {
+        background-color: rgba(0, 0, 0, 0.20);
+    }
+
+    .dpt.dpt-panel-custom-unmaximized .panel-corner {
+        -panel-corner-background-color: rgb(0, 0, 0);
+        -panel-corner-opacity: 0.20;
+    }
+
+    .dpt-panel-custom-maximized {
+        background-color: rgba(0, 0, 0, 1.00);
+    }
+
+    .dpt.dpt-panel-custom-maximized .panel-corner {
+        -panel-corner-background-color: rgb(0, 0, 0);
+        -panel-corner-opacity: 1.00;
+    }

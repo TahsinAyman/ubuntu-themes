@@ -1,0 +1,190 @@
+# Dynamic Panel Transparency Translation File
+# Copyright (c) 2017
+# This file is distributed under the same license as the dynamic-panel-transparency package.
+#
+# Evan Welsh <contact@evanwelsh.com>, 2017.
+# Alonso Lara <alonso.lara.plana@gmail.com>, 2017.
+# Óscar Fernández <oscfdezdz@tuta.io>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-11 09:28-0800\n"
+"PO-Revision-Date: 2021-04-27 12:48+0200\n"
+"Last-Translator: Óscar Fernández <oscfdezdz@tuta.io>\n"
+"Language-Team: Evan Welsh <contact@evanwelsh.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: prefs.js:122
+msgid "default"
+msgstr "por defecto"
+
+#: prefs.ui:7
+msgid "Classy transparency for your panel."
+msgstr "Transparencia con clase para tu panel."
+
+#: prefs.ui:9
+msgid "Website"
+msgstr "Sitio Web"
+
+#: prefs.ui:72
+msgid "Shell Restart Required."
+msgstr "Se requiere reiniciar la línea de comandos."
+
+#. Meant to ask the user if they would like to restart right now or later in a yes/no format.
+#: prefs.ui:73
+msgid ""
+"A shell restart is required to view some of your changes. Do you want to "
+"restart now?"
+msgstr ""
+"Se requiere reiniciar la línea de comandos para ver algunos de sus cambios. "
+"¿Desea reiniciar ahora?"
+
+#. How long the transition will take.
+#: prefs.ui:134
+msgid "Transition Speed"
+msgstr "Velocidad de transición"
+
+#: prefs.ui:160 prefs.ui:183
+msgid "Overrides 'gtk-enable-animations'."
+msgstr "Sobreescribe 'gtk-enable-animations'."
+
+#. Whether the panel transitions should happen with the overview transitions or after.
+#: prefs.ui:171
+msgid "Transition with the overview"
+msgstr "Transición con la vista general"
+
+#. Whether the panel should transition when a window touches it or only when a window is actually maximized.
+#: prefs.ui:194
+msgid "Transition when windows touch the panel"
+msgstr "Transición cuando las ventanas tocan el panel"
+
+#: prefs.ui:210
+msgid "Transitions"
+msgstr "Transiciones"
+
+#. Allows the user to set their own text color.
+#: prefs.ui:257
+msgid "Enable custom text coloring"
+msgstr "Acticar color de texto personalizado"
+
+#. The main color to be used.
+#: prefs.ui:281 prefs.ui:294
+msgid "Primary Color"
+msgstr "Color primario"
+
+#. Another color for special functions.
+#: prefs.ui:307 prefs.ui:319
+msgid "Secondary Color"
+msgstr "Color secundario"
+
+#: prefs.ui:334
+msgid "Use when a window is maximized"
+msgstr "Usar cuando una ventana está maximizada"
+
+#: prefs.ui:352
+msgid "Use when the overview is visible"
+msgstr "Usar cuando la vista general está visible"
+
+#: prefs.ui:409
+msgid "Enable text shadowing"
+msgstr "Activar sombras de texto"
+
+#: prefs.ui:442 prefs.ui:496 prefs.ui:609 prefs.ui:663
+msgid "Shadow Color"
+msgstr "Color de la sombra"
+
+#: prefs.ui:508 prefs.ui:675
+msgid "Radius"
+msgstr "Radio"
+
+#: prefs.ui:520 prefs.ui:687
+msgid "Horizontal Offset"
+msgstr "Desplazamiento horizontal"
+
+#: prefs.ui:532 prefs.ui:699
+msgid "Vertical Offset"
+msgstr "Desplazamiento vertical"
+
+#: prefs.ui:576
+msgid "Enable icon shadowing"
+msgstr "Activar sombras de iconos"
+
+#: prefs.ui:734
+msgid "Foreground"
+msgstr "Primer plano"
+
+#. Opacity of the panel when no window is maximized.
+#: prefs.ui:785
+msgid "Unmaximized Opacity"
+msgstr "Opacidad sin maximizado"
+
+#. Opacity of the panel when a window is maximized.
+#: prefs.ui:829
+msgid "Maximized Opacity"
+msgstr "Opacidad con maximizado"
+
+#. Allows the user to set their own opacity.
+#: prefs.ui:850
+msgid "Enable custom opacity"
+msgstr "Activar opacidad personalizada"
+
+#. The panel's background color.
+#: prefs.ui:902 prefs.ui:915
+msgid "Panel Color"
+msgstr "Color del panel"
+
+#. Allows the user to set their own background color for the panel.
+#: prefs.ui:935
+msgid "Enable custom panel color"
+msgstr "Activar color del panel personalizado"
+
+#. Removes any extra styling certain themes may have. Fixes theme issues.
+#: prefs.ui:983
+msgid "Remove excess panel styling"
+msgstr "Eliminar estilo sobrante del panel"
+
+#: prefs.ui:990
+msgid "(Fixes theme incompatibilities.)"
+msgstr "(Corrigue incompatibilidades del tema.)"
+
+#. Hides the panel corners.
+#: prefs.ui:1008
+msgid "Hide corners"
+msgstr "Ocultar esquinas"
+
+#: prefs.ui:1027
+msgid "Background"
+msgstr "Fondo"
+
+#: prefs.ui:1037
+msgid "About"
+msgstr "Acerca de"
+
+#~ msgid ""
+#~ "A WM_CLASS is a code that identifies a window. Use this setting if the "
+#~ "window you want custom settings for is not part of an application. You "
+#~ "can find a window's WM_CLASS with the command 'xprop WM_CLASS'. Enter the "
+#~ "second result from 'xprop WM_CLASS' below without quotation marks."
+#~ msgstr ""
+#~ "Un WM_CLASS es un código que identifica una ventana. Use este ajuste si "
+#~ "la ventana que desea personalizar no es parte de una aplicación. Puede "
+#~ "localizar el WM_CLASS de una ventana mediante el comando 'xprop "
+#~ "WM_CLASS'. Introduzca el segundo resultado de 'xprop WM_CLASS' sin "
+#~ "comillas."
+
+#~ msgid "WM_CLASS cannot be blank."
+#~ msgstr "WM_CLASS no puede estar en blanco."
+
+#~ msgid "Enable background app tweaks"
+#~ msgstr "Activar ajustes de la aplicación de fondo"
+
+#~ msgid "Theme Source"
+#~ msgstr "Fuente del tema"
+
+#~ msgid "Always trigger the panel."
+#~ msgstr "Desplegar siempre el panel."
